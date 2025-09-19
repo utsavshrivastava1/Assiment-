@@ -140,6 +140,6 @@ tbody td {
 }
 
 tbody tr.selected {
-  background-color: #e0e7ff; /* Light indigo when selected */
+  background-color: #e0e7ff; 
 }
 
