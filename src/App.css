@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom scroll for DataTable */
+table::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+table::-webkit-scrollbar-thumb {
+  background-color: #6366f1; /* Indigo-500 */
+  border-radius: 8px;
+}
+
+table::-webkit-scrollbar-track {
+  background-color: #e5e7eb; /* Gray-200 */
+}
+
+/* InputField focus shadow */
+input:focus {
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.3); /* Indigo focus glow */
+}
+
+/* Clear button hover */
+button:hover {
+  transform: scale(1.1);
+  transition: all 0.2s ease-in-out;
+}
+
+/* Password toggle hover */
+button:hover {
+  color: #4f46e5; /* Indigo-600 */
+}
+
+/* Table row hover effect */
+tbody tr:hover {
+  background-color: #f3f4f6; /* Gray-100 */
+}
+
+/* Table header hover effect */
+thead th:hover {
+  background-color: #e0e7ff; /* Indigo-100 */
+}
+
+/* Disabled input styling */
+input:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+/* Invalid input styling */
+input[aria-invalid="true"] {
+  border-color: #f87171; /* Red-400 */
+}
+
+/* Table checkbox accent color */
+input[type="checkbox"] {
+  accent-color: #6366f1; /* Indigo-500 */
+}
+
+/* Smooth transition for hover/focus */
+input,
+button,
+th,
+td {
+  transition: all 0.2s ease-in-out;
+}
+
