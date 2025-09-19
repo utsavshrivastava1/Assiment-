@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./App.css";
+
 export interface InputFieldProps {
   value?: string;
   onChange?: (e: React.ChangeEvent<HTMLInputElement>) => void;
