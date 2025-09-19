@@ -1,6 +1,6 @@
 import { InputField } from "./components/InputField";
 import { DataTable } from "./components/DataTable/DataTable";
- 
+ import "./App.css";
 function App() {
   return (
     <div className="p-4 space-y-8">
